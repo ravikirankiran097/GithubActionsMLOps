@@ -15,10 +15,10 @@ VECTOR = meta_data["VECTORS_PATH"]
 MODEL = meta_data["MODEL_PATH"]
 
 # Configure DVC
-os.system("dvc remote add origin1 {DVC_REMOTE_URL}")
-os.system("dvc remote modify origin1 --local auth basic")
-os.system("dvc remote modify origin1 --local user {USERNAME}}")
-os.system("dvc remote modify origin1 --local password {PASSWORD}")
+os.system("dvc remote add dagshub {DVC_REMOTE_URL}")
+os.system("dvc remote modify dagshub --local auth basic")
+os.system("dvc remote modify dagshub --local user {USERNAME}}")
+os.system("dvc remote modify dagshub --local password {PASSWORD}")
 
 # Add Model Metadata to DVC
 os.system("dvc add {DATA} {VECTOR} {MODEL}")
