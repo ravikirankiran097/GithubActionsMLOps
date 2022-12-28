@@ -1,4 +1,4 @@
-name: ETL Train Save Model ....
+name: ETL Train Save Model ..
 on: [push, pull_request]
 jobs:
   run:
