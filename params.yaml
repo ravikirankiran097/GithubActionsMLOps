@@ -6,7 +6,7 @@ dvc_config:
 model_data_config:
     MODEL_PATH: "./git_actions_models"
     METRICS_PATH: "./git_actions_data/metrics"
-    VECTOR_PATH: "./git_actions_vectors"
+    VECTORS_PATH: "./git_actions_vectors"
 
 ec2_prepare:
     DAGSHUB_REMOTE_URL: "[MY REMOTE URL]"

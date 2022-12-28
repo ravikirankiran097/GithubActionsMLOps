@@ -10,12 +10,12 @@ PASSWORD = dvc_config["PASSWORD"]
 
 # Data Path 
 meta_data = safe_load(open("params.yaml"))["model_data_config"]
-DATA = meta_data["MODEL_PATH"]
-VECTOR = meta_data["VECTOR_PATH"]
+DATA = meta_data["METRICS_PATH"]
+VECTOR = meta_data["VECTORS_PATH"]
 MODEL = meta_data["MODEL_PATH"]
 
 # Configure DVC
-os.system("dvc remote add -f origin {DVC_REMOTE_URL}")
+os.system("dvc remote add origin {DVC_REMOTE_URL}")
 os.system("dvc remote modify origin --local auth basic")
 os.system("dvc remote modify origin --local user {USERNAME}}")
 os.system("dvc remote modify origin --local password {PASSWORD}")
