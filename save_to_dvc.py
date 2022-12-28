@@ -4,9 +4,9 @@ import os
 
 # Get DVC Credentials 
 dvc_config = safe_load(open("params.yaml"))["dvc_config"]
-DVC_REMOTE_URL = dvc_config["DAGSHUB_REMOTE_URL"]
-USERNAME = dvc_config["USERNAME"]
-PASSWORD = dvc_config["PASSWORD"]
+DVC_REMOTE_URL = dvc_config["https://dagshub.com/ravikirankiran097/GithubActionsMLOps.dvc"]
+USERNAME = dvc_config["ravikirankiran097"]
+PASSWORD = dvc_config["a6218961dad1404d4865c8400c5535c1a8cd103d"]
 
 # Data Path 
 meta_data = safe_load(open("params.yaml"))["model_data_config"]
