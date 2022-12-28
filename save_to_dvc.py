@@ -15,7 +15,7 @@ VECTOR = meta_data["VECTORS_PATH"]
 MODEL = meta_data["MODEL_PATH"]
 
 # Configure DVC
-os.system("dvc remote remove origin")
+os.system("dvc remote remove {DVC_REMOTE_URL}")
 os.system("dvc remote add origin {DVC_REMOTE_URL}")
 os.system("dvc remote modify origin --local auth basic")
 os.system("dvc remote modify origin --local user {USERNAME}}")
