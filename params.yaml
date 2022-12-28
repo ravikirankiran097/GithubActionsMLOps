@@ -1,7 +1,7 @@
 dvc_config:
-    DVC_REMOTE_URL: "https://dagshub.com/zoumana.keita/GithubActionsMLOps.dvc"
-    USERNAME: "zoumana.keita"
-    PASSWORD: "MY PASSWORD"
+    DVC_REMOTE_URL: "https://dagshub.com/ravikirankiran097/GithubActionsMLOps.dvc"
+    USERNAME: "ravikirankiran097"
+    PASSWORD: "Bobby@2022$"
   
 model_data_config:
     MODEL_PATH: "./git_actions_models"
