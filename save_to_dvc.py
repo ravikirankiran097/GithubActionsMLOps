@@ -4,7 +4,7 @@ import os
 
 # Get DVC Credentials 
 dvc_config = safe_load(open("params.yaml"))["dvc_config"]
-DVC_REMOTE_URL = dvc_config["DAGSHUB_REMOTE_URL"]
+DVC_REMOTE_URL = dvc_config["DVC_REMOTE_URL"]
 USERNAME = dvc_config["USERNAME"]
 PASSWORD = dvc_config["PASSWORD"]
 
