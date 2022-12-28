@@ -10,7 +10,7 @@ PASSWORD = dvc_config["PASSWORD"]
 
 # Data Path 
 meta_data = safe_load(open("params.yaml"))["model_data_config"]
-DATA = meta_data["DATA_PATH"]
+DATA = meta_data["MODEL_PATH"]
 VECTOR = meta_data["VECTOR_PATH"]
 MODEL = meta_data["MODEL_PATH"]
 
