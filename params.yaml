@@ -1,7 +1,7 @@
 dvc_config:
     DVC_REMOTE_URL: "https://dagshub.com/ravikirankiran097/GithubActionsMLOps.dvc"
     USERNAME: "ravikirankiran097"
-    PASSWORD: "Bobby@2022$"
+    PASSWORD: "a6218961dad1404d4865c8400c5535c1a8cd103d"
   
 model_data_config:
     MODEL_PATH: "./git_actions_models"
@@ -23,6 +23,6 @@ meta_data:
     APP: "app.py"
 
 mlflow_credentials: 
-    MLFLOW_TRACKING_URI: "https://dagshub.com/zoumana.keita/GithubActionsMLOps.mlflow"
-    MLFLOW_TRACKING_USERNAME: "zoumana.keita"
-    MLFLOW_TRACKING_PASSWORD: "[MY PASSWORD]"
+    MLFLOW_TRACKING_URI: "https://dagshub.com/ravikirankiran097/GithubActionsMLOps.mlflow"
+    MLFLOW_TRACKING_USERNAME: "ravikirankiran097"
+    MLFLOW_TRACKING_PASSWORD: "a6218961dad1404d4865c8400c5535c1a8cd103d"
