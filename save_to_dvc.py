@@ -22,4 +22,5 @@ os.system("dvc remote modify origin --local password {PASSWORD}")
 
 # Add Model Metadata to DVC
 os.system("dvc add {DATA} {VECTOR} {MODEL}")
-os.system("dvc push")
+os.system("dvc commit git_actions_data.dvc")
+os.system("dvc push -r https://dagshub.com/ravikirankiran097/GithubActionsMLOps.dvc")
